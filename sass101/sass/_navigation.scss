@@ -1,0 +1,23 @@
+//Navigation
+
+//Mobile first
+
+ul {
+	display:flex;
+	flex-direction:column;
+	li {
+		list-style:none;
+		background:$color-background-nav;
+		border:lightgrey 2px dashed;
+		margin:0.5em 0 0.5em -2em;
+		padding:1em;
+		@include shadow();
+	} 
+}
+@media screen and (min-width: 600px) {
+	ul {
+		flex-direction:row;
+		justify-content:space-between;
+		width:60%;
+	}
+}

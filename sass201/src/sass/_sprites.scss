@@ -1,0 +1,31 @@
+//Sprites
+
+@import "compass/utilities/sprites";
+@import "img/*.png";
+@include all-img-sprites;
+
+.social-media {
+	list-style:none;
+	.img-youtube, 
+	.img-twitter,
+	.img-pinterest,
+	.img-linkedin,
+	.img-googleplus,
+	.img-github,
+	.img-flickr,
+	.img-facebook {
+		width:33px;
+		height:33px;
+		display:block;
+		float:left;
+		margin:2em;
+		a {
+			display:block;
+			width:32px;
+			height:32px;
+			a:hover {
+				
+			}
+		}
+	}	
+}
